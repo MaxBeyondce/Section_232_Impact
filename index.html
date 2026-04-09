@@ -5273,10 +5273,20 @@ const annexData = {
 
 // ── STATE ─────────────────────────────────────────────
 let currentView = 'IA';
-let currentTab  = 'AnnexIA';
+let currentTab  = 'MetalIA';
 let sortMode    = 'conc'; // 'conc' | 'usd25'
 let unitMode    = 'usd'; // 'usd' | 'wt'
 let chartInstances = {};
+
+// ── KPI CARD ID MAP ───────────────────────────────────
+const kpiCardMap = {
+  IA:       'kpi-ia',
+  IB:       'kpi-ib',
+  AnnexII:  'kpi-annexii',
+  III:      'kpi-iii',
+  PharmaI:  'kpi-pharmai',
+  PharmaIV: 'kpi-pharmaiv',
+};
 
 // ── VIEW CONFIG ───────────────────────────────────────
 const viewConfig = {
